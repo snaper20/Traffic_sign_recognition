@@ -20,9 +20,9 @@ def preprocess_image(image):
         return None
 
 # Streamlit app
-st.title('Traffic Sign Recognition')
+st.title('Traffic Sign Recognition)
 
-uploaded_file = st.file_uploader("Choose an image...", type=["ppm"])
+uploaded_file = st.file_uploader("Choose an image...", type=["ppm","jpg","png","jpeg"])
 
 if uploaded_file is not None:
     # Preprocess the image
